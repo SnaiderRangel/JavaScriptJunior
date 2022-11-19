@@ -25,14 +25,3 @@
 
 // document.write(`${nombreDeEquipo} <br> ${nombreDelProcesador}`);
 
-let total = 0;
-let cantidaDenumeros = prompt('Digite la cantidad de numeros: ');
- for(i = 1; i <= cantidaDenumeros;i++){
-    let numero; 
-    numero = prompt(`numero ${i}: `);
-    total = parseInt(total);
-    numero = parseInt(numero);
-    total += numero;
- }
-
- document.write(`El resultado de la suma de 10 numeros es: ${total}`);
