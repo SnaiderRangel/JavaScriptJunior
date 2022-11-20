@@ -85,28 +85,73 @@
 //     x = 0;
 //     validarAsistencias(); 
 // }
-let edad;
-let time;
-let vip = true;
 
-let entradaVip = () =>{
-    edad = prompt('Edad: ');
-    if (edad >= 18){
-        time = prompt('Current time: ');
-        if (time >= '2am' && vip){
-            vip = false;
-            return alert(`Puedes pasar gratis por que son las: ${time}`);
-        }
-        else{
-            return alert(`El valor de la entrada es de $5 Dolares: `);
-        }
-    }
-    else(
-        alert('No se permiten menores de 18 años')
-    )
-}
 
-entradaVip();
-entradaVip();
-entradaVip();
-entradaVip();
+// let edad;
+// let time;
+// let vip = true;
+
+// let entradaVip = () =>{
+//     edad = prompt('Edad: ');
+//     if (edad >= 18){
+//         time = prompt('Current time: ');
+//         if (time >= '2am' && vip){
+//             vip = false;
+//             return alert(`Puedes pasar gratis por que son las: ${time}`);
+//         }
+//         else{
+//             return alert(`El valor de la entrada es de $5 Dolares: `);
+//         }
+//     }
+//     else(
+//         alert('No se permiten menores de 18 años')
+//     )
+// }
+
+// entradaVip();
+// entradaVip();
+// entradaVip();
+// entradaVip();
+
+
+// suma = (num1,num2) =>{
+//     return alert(`El resulatado es: ${num1 + num2}`);
+// } 
+
+// resta = (num1, num2) =>{
+//     return alert(`El resulatado es: ${num1 - num2}`);   
+// }
+
+// multiplicaion =(num1,num2) =>{
+//     return alert(`El resulatado es: ${num1 + num2}`);
+// }
+
+// division =(num1,num2)=>{
+//     return alert(`El resulatado es: ${num1 / num2}`);
+// } 
+
+// suma(parseInt(12), parseInt(12))
+
+
+// let num1 = prompt('Primer numero');
+// let num2 = prompt('segundo numero');
+
+// if (num1 > num2){
+//     alert(`El ${num1} es mayor a ${num2}`);
+// }
+// else if(num1 < num2 ){
+//     alert(`El ${num2} es mayor a ${num1}`);
+// }
+// else if (num1 ==  num2){
+//     alert(`El ${num2} y ${num1} son iguales`);
+// }
+
+// let num1 = prompt('Numero: ');
+// parseInt(num1);
+
+// if ((num1%2) == 0){
+//     alert(`El numero ${num1} es multiplo de 2`);
+// }
+// else{
+//     alert(`El ${num1} no es Divisible por 2`);
+// }
