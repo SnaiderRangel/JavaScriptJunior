@@ -25,13 +25,31 @@
 
 // document.write(`${nombreDeEquipo} <br> ${nombreDelProcesador}`);
 
-const ovejas = [
-    { name: 'Noa', color: 'azul' },
-    { name: 'Euge', color: 'rojo' },
-    { name: 'Navidad', color: 'rojo' },
-    { name: 'Ki Na Ma', color: 'rojo'},
-    { name: 'AAAAAaaaaa', color: 'rojo' },
-    { name: 'Nnnnnnnn', color: 'rojo'}
-  ]
 
-  console.log(ovejas[0])
+const NumeroDeEstudiantes = parseInt(prompt('number of students: '));
+const diasDelMes = prompt('number of days in the month'); 
+let estudiantes = [];
+let x = 0;
+let a = 0; 
+let f = 0;
+for(i = 1; i<= NumeroDeEstudiantes; i++){
+    estudiantes[i] = prompt(`name of student ${i}`);
+    while(x <= diasDelMes){
+        asistencias = prompt('A si asistio f si falto') 
+        if (asistencias == 'a' || asistencias == 'A'){
+            a++;
+        } 
+        else if(asistencias == 'f' || asistencias == 'F'){
+            f++;
+        }
+        x++;
+    }
+    x = 0; 
+    if (a < f){
+        document.write(`${estudiantes[i]}: Reprobo ${'<br>'}`)
+    }
+    else if(a > f){
+        document.write(`${estudiantes[i]}: Aprobo ${'<br>'}`);
+    }
+
+}
