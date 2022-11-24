@@ -154,4 +154,18 @@
 // }
 // else{
 //     alert(`El ${num1} no es Divisible por 2`);
+// }  
+
+// funtion calc promedio 
+
+// calcularMediaAritmetica =()=>{
+//     xifi = parseInt(prompt('Digite le Xifi: '));
+//     numeroDeDatos  = parseInt(prompt('Digite el numero total de datos: '));
+//     mediaAritmetica = parseFloat(xifi / numeroDeDatos);
+//     alert(`La media aritmetica es: ${mediaAritmetica}`);
 // }
+
+// calcularMediaAritmetica();
+
+
+alert('hola mundo');
