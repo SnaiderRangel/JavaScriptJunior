@@ -167,5 +167,29 @@
 
 // calcularMediaAritmetica();
 
+// const srt = 'Hi, my name is: Antoni';
 
-alert('hola mundo');
+// const cantCaracter = srt.indexOf('a');
+
+// console.log(cantCaracter);
+
+class vehiculos {
+    constructor(tipo, color, modelo){
+        this.color = color;
+        this.tipo = tipo;
+        this.modelo = modelo; 
+        this.motos = ()=>{
+            if (tipo == 'moto'){
+                console.log(`Hi, you have a: ${tipo}`);
+            }
+            else{
+                console.log(`you not motorcycle`);
+            }
+        }
+    }
+}
+
+let moto = new vehiculos('moto', 'Blue', 2022);
+let bugati = new vehiculos('Carro', 'white', 2026);
+
+moto.motos();
